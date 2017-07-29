@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="cutomNameField" max_length="40" name="cutomnamefield" type="string"/>
+        <element label="latestColoumn" max_length="40" name="latestcoloumn" type="integer"/>
+        <element label="newColoumn" max_length="40" name="newcoloumn" type="integer"/>
+        <element label="newFieldName" max_length="30" name="newfieldname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Request Type" mandatory="true" max_length="40" name="u_string_2" type="string"/>
+    </element>
+</database>
