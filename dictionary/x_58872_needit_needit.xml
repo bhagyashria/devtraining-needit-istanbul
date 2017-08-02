@@ -5,6 +5,7 @@
         <element label="latestColoumn" max_length="40" name="latestcoloumn" type="integer"/>
         <element label="newColoumn" max_length="40" name="newcoloumn" type="integer"/>
         <element label="newFieldName" max_length="30" name="newfieldname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="other" max_length="40" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Request Type" mandatory="true" max_length="40" name="u_string_2" type="string"/>
     </element>
 </database>

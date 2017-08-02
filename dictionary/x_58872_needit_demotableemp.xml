@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_ci_appl_sap" label="demoTableEmp" max_length="40" name="x_58872_needit_demotableemp" type="collection">
+        <element choice="1" default="1" label="empId" max_length="10" name="empid" type="integer">
+            <choice/>
+        </element>
+        <element choice="1" display="true" label="empName" mandatory="true" max_length="30" name="empname" reference="sla" type="string">
+            <choice/>
+        </element>
+        <element label="empSal" mandatory="true" max_length="7" name="empsal" reference="cmn_department" type="float"/>
+    </element>
+</database>

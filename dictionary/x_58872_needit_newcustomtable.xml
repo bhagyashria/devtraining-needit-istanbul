@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" extends="task" label="newCustomTable" max_length="40" name="x_58872_needit_newcustomtable" type="collection">
+        <element label="customerId" mandatory="true" max_length="40" name="customerid" type="integer"/>
+        <element display="true" label="customerName" max_length="30" name="customername" type="string"/>
+        <element choice="1" label="selectFacility" max_length="40" name="selectfacility" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>
