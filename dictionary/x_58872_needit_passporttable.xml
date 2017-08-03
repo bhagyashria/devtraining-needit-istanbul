@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="passportTable" max_length="40" name="x_58872_needit_passporttable" type="collection">
+        <element display="true" label="UserAddress" max_length="1250" name="useraddress" type="string"/>
+        <element label="UserId" mandatory="true" max_length="1000" name="userid" type="integer"/>
+        <element label="UserName" max_length="30" name="username" type="string"/>
+    </element>
+</database>
